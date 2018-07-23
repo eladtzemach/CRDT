@@ -1,4 +1,4 @@
-# CRDT
+# CRDT - LWW
 Implementation of the LWW (Last-Writer-Wins) CRDT data structure
 using Python dictionaries and Redis sorted set (ZSET).
 

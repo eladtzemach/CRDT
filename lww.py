@@ -23,7 +23,7 @@ class LWW:
             if element_current_timestamp < timestamp:
                 lww_set[element] = timestamp
 
-        # if the element does not exist in lww_add, add it
+        # if the element does not exist in lww_set, add it
         else:
             lww_set[element] = timestamp
 
